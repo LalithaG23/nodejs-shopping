@@ -112,4 +112,4 @@ mongoose
       console.log(`Listening to port ${port}...`);
     });
   })
-  .catch((err) => console.log(err));
+  .catch((err) => console.log('Error connection to MongoDB'err));
