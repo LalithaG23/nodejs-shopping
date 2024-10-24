@@ -20,7 +20,7 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 const { forwardError } = require('./utils');
 
-const MONGODB_URI = 'mongodb+srv://srilalitha200:Lakshitha23@cluster0.uo3mg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://srilalitha200:Lakshitha23@cluster0.uo3mg.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0&ssl=true';
 
 
 
